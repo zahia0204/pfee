@@ -1,0 +1,128 @@
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: #233E83;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed; /* Ensures it stays on the left */
+    top: 0;
+    left: 0;
+  }
+  
+.sidebar img {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .sidebarList {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .sidebarList .row {
+    width: 90%;
+    height: 60px;
+    list-style: none;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 15px;
+    border-radius: 8px;
+   
+  }
+  
+  .sidebarList .row:hover {
+    cursor: pointer;
+    background-color: #0A2364;
+  }
+  
+  .sidebarList #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .sidebarList #title {
+    flex: 70%;
+  }
+  
+  .sidebarList #active {
+    background-color: #3DB64B;
+    border-radius: 8px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+  }
+  
+  
+  .navbar {
+    height: 10vh;
+    background-color: #233E83;
+    position: fixed;  
+    top: 0;
+    left: 230px;
+    width: calc(100% - 230px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    z-index: 1000;
+    
+    
+  }
+  
+  .navbar img {
+    height: 40px;
+  }
+  
+  .profile-container{
+    position: relative;
+    cursor: pointer;
+    margin-left: 92%;
+  }
+  
+  .profile-container .profile-icon{
+    
+    font-size: 30px;
+    color: white  ;
+  
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    width: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 10;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #233E83;
+    background-color: white;
+    font-family: sans-serif;
+    border-radius: 8px;
+    
+    
+  }
+  
+  .dropdown-menu li:hover {
+    background: #f0f0f0;
+  
+  }
