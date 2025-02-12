@@ -21,3 +21,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.search-bar {
+  width: 300px; 
+  height: 40px; 
+  padding: 5px 10px; 
+  font-size: 16px; 
+  color: black; 
+  background: #FFFFFF;
+border: 1px solid #233E83;
+border-radius: 7px;
+}
+button {
+    color: white;
+    border: none; 
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    width:  80px;
+    height: 50px;
+    background: rgba(61, 182, 75, 0.99);
+    border-radius: 7px;
+  }
+button:hover {
+  background: rgba(51, 149, 62, 0.99);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th {
+  color:  #233E83;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px  #233E83;
+}
+
+td {
+  color: black;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #233E83; 
+}
+table, th, td {
+  margin: 12px;
+  padding: 12px;
+}
+
+
+
+

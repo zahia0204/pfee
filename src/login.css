@@ -47,3 +47,10 @@
     width: 180px;
     margin-left:25%;
   }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
