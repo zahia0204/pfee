@@ -12,8 +12,10 @@ const handleFilter = () => {
 const Table = ({ data }) => {
   return (
     <div>
+      <div className="button-container">
        <ImportButton onImport={handleImport} />
        <FilterButton onFilter={handleFilter} />
+       </div>
     <table >
       <thead>
         <tr>

@@ -51,7 +51,13 @@ table {
   border-collapse: collapse;
   background-color: white;
 }
-
+h1 {
+  color: #233E83;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
 th {
   color:  #233E83;
   font-weight: bold;
@@ -69,6 +75,10 @@ td {
 table, th, td {
   margin: 12px;
   padding: 12px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 
