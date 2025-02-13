@@ -3,6 +3,7 @@ import React from "react";
 import Login from "./login";
 import Home from "./home";
 import Dashboard from "./Dashboard";
+import Employees from "./Employees";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/LesEmployees" element={<Employees />} />
         </Routes>
       </div>
     </Router>
