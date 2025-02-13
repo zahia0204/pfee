@@ -13,8 +13,9 @@ const Table = ({ data }) => {
   return (
     <div>
       <div className="button-container">
+        <FilterButton onFilter={handleFilter} />
        <ImportButton onImport={handleImport} />
-       <FilterButton onFilter={handleFilter} />
+       
        </div>
     <table >
       <thead>

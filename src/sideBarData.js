@@ -17,6 +17,6 @@ export const SidebarData = [
     {
         title:"Listes des clients",
         icon:<FormatListNumberedIcon/>,
-        link:"/Listclients",
+        link:"/home",
     }
 ];
