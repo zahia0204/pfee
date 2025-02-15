@@ -40,3 +40,26 @@ h1 {
   textarea {
     resize: vertical;
   }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .save-btn,.imprimer-btn, .cancel-btn {
+    font-size: 16px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  .cancel-btn:hover {
+    background-color: #c82333; 
+  }
