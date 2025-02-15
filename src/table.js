@@ -26,6 +26,7 @@ const Table = ({ data }) => {
           <th>Etat</th>
           <th>Total</th>
           <th>Type</th>
+          <th>Region</th>
           <th>plus</th>
         </tr>
       </thead>
@@ -38,13 +39,14 @@ const Table = ({ data }) => {
               <td>{item.numtel}</td>
               <td>{item.etat} </td>
               <td>{item.total} </td>
+              <td>{item.region} </td>
               <td>{item.type} </td>
               <td><button>{item.plus}</button> </td>
             </tr>
           ))
         ) : (
           <tr>
-            <td colSpan="7" style={{ textAlign: "center", color: "red" }}>
+            <td colSpan="8" style={{ textAlign: "center", color: "red" }}>
               No results found
             </td>
           </tr>
